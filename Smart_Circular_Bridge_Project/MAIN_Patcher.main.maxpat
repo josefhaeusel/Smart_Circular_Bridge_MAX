@@ -40,6 +40,58 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "tab",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 678.0, 239.0, 244.0, 26.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "Warm", "Kalt" ],
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "tab[1]",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "tab",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"tabs" : [ "Warm", "Kalt" ],
+					"varname" : "tab[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 942.0, 193.0, 139.0, 35.0 ],
+					"text" : "loadSamples soundscape"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 886.0, 538.0, 100.0, 22.0 ],
+					"text" : "atmosSlider"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -113,6 +165,30 @@
 						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 458.0, 142.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 443.0, 176.0, 100.0, 22.0 ],
+									"text" : "loadmess 90"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-25",
 									"maxclass" : "number",
@@ -318,6 +394,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 1 ],
 									"source" : [ "obj-12", 0 ]
 								}
@@ -343,6 +426,22 @@
 									"destination" : [ "obj-8", 1 ],
 									"order" : 0,
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"order" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"order" : 1,
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -457,35 +556,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 430.5, 50.0, 22.0 ],
-					"text" : "62 24"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "tab",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 668.0, 359.0, 244.0, 26.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "Lydian", "Dorian", "Wholetone" ],
-							"parameter_initial" : [ 0.0 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "tab",
-							"parameter_mmax" : 2,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "tab",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"tabs" : [ "Lydian", "Dorian", "Wholetone" ],
-					"varname" : "tab"
+					"text" : "60 127"
 				}
 
 			}
@@ -519,7 +590,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 456.0, 99.0, 1007.0, 708.0 ],
+						"rect" : [ 402.0, 248.0, 1007.0, 708.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -555,7 +626,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 217.0, 508.0, 100.0, 22.0 ],
+									"patching_rect" : [ 216.0, 520.0, 100.0, 22.0 ],
 									"text" : "- 0.1"
 								}
 
@@ -568,7 +639,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 216.0, 325.0, 100.0, 22.0 ],
-									"text" : "*~ 140"
+									"text" : "*~ 130"
 								}
 
 							}
@@ -746,7 +817,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 217.0, 259.0, 142.0, 22.0 ],
-									"text" : "rampsmooth~ 5 100000"
+									"text" : "rampsmooth~ 10 100000"
 								}
 
 							}
@@ -1011,7 +1082,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 947.0, 251.0, 139.0, 22.0 ],
+					"patching_rect" : [ 942.0, 152.0, 139.0, 22.0 ],
 					"text" : "loadSamples marimba"
 				}
 
@@ -1026,6 +1097,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"order" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -1035,13 +1122,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -1063,6 +1143,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -1077,8 +1164,13 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-12" : [ "tab[1]", "tab", 0 ],
 			"obj-13" : [ "Dry Wet", "Dry Wet", 0 ],
-			"obj-29" : [ "tab", "tab", 0 ],
+			"obj-6::obj-10" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
+			"obj-6::obj-13" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
+			"obj-6::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
+			"obj-6::obj-336" : [ "Soundscapes", "Soundscapes", 0 ],
+			"obj-6::obj-9" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1088,11 +1180,53 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-6::obj-10" : 				{
+					"parameter_initial" : -6,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "mc.live.gain~[1]"
+				}
+,
+				"obj-6::obj-13" : 				{
+					"parameter_initial" : -6,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "mc.live.gain~[2]"
+				}
+,
+				"obj-6::obj-16" : 				{
+					"parameter_initial" : -6,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "mc.live.gain~[3]"
+				}
+,
+				"obj-6::obj-9" : 				{
+					"parameter_initial" : -6,
+					"parameter_initial_enable" : 1,
+					"parameter_longname" : "mc.live.gain~",
+					"parameter_shortname" : "mc.live.gain~"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Testdaten.maxpat",
+				"bootpath" : "~/Library/CloudStorage/GoogleDrive-josef.haeusel@yahoo.de/My Drive/Musikdesign/Klangerfinder/Projekte/Brücke/GIT_Maxpatch/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "atmosFade.maxpat",
+				"bootpath" : "~/Library/CloudStorage/GoogleDrive-josef.haeusel@yahoo.de/My Drive/Musikdesign/Klangerfinder/Projekte/Brücke/GIT_Maxpatch/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "atmosSlider.maxpat",
 				"bootpath" : "~/Library/CloudStorage/GoogleDrive-josef.haeusel@yahoo.de/My Drive/Musikdesign/Klangerfinder/Projekte/Brücke/GIT_Maxpatch/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
