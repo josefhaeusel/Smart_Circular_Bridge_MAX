@@ -75,7 +75,7 @@
 					"patching_rect" : [ 707.0, 664.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -6 ],
+							"parameter_initial" : [ -10 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~[3]",
 							"parameter_mmax" : 6.0,
@@ -128,7 +128,7 @@
 					"patching_rect" : [ 476.60654354095459, 657.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -6 ],
+							"parameter_initial" : [ -10 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~[2]",
 							"parameter_mmax" : 6.0,
@@ -181,7 +181,7 @@
 					"patching_rect" : [ 264.0, 657.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -6 ],
+							"parameter_initial" : [ -10 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~[1]",
 							"parameter_mmax" : 6.0,
@@ -231,10 +231,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 81.96721076965332, 613.62293529510498, 48.0, 136.0 ],
+					"patching_rect" : [ 81.96721076965332, 664.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -6 ],
+							"parameter_initial" : [ -10 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~",
 							"parameter_mmax" : 6.0,
@@ -258,7 +258,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 81.96721076965332, 542.62293529510498, 68.0, 22.0 ],
+					"patching_rect" : [ 81.96721076965332, 537.704902648925781, 68.0, 22.0 ],
 					"text" : "mc.pack~"
 				}
 
@@ -270,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 81.96721076965332, 569.62293529510498, 100.0, 22.0 ],
+					"patching_rect" : [ 82.0, 602.0, 100.0, 22.0 ],
 					"text" : "mc.*~"
 				}
 
@@ -525,7 +525,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 727.868831634521484, 444.262282371520996, 84.0, 49.0 ],
+					"patching_rect" : [ 727.868831634521484, 444.262282371520996, 87.0, 49.0 ],
 					"text" : "play~ soundscape.4 2 @loop 1"
 				}
 
