@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 131.0, 640.0, 480.0 ],
+		"rect" : [ 49.0, 139.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 806.0, 256.0, 98.0, 22.0 ],
+					"text" : "0 1 3 5 7 8 11 12"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -58,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 381.0, 50.0, 22.0 ],
-					"text" : "62"
+					"text" : "63"
 				}
 
 			}
@@ -71,7 +83,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 104.0, 50.0, 35.0 ],
-					"text" : "0.299755"
+					"text" : "0.023932"
 				}
 
 			}
@@ -120,7 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 123.0, 141.0, 50.0, 35.0 ],
-					"text" : "38.06888"
+					"text" : "3.039372"
 				}
 
 			}
@@ -140,11 +152,11 @@
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 317.0, 224.0, 517.0, 22.0 ],
-					"text" : "sel 0 1 2 3"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 317.0, 224.0, 74.0, 22.0 ],
+					"text" : "sel 0 1 2 3 4"
 				}
 
 			}
@@ -157,7 +169,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 317.0, 182.0, 271.0, 23.0 ],
-					"tabs" : [ "Mixolyian", "Dorian", "Wholetone", "Lydian" ]
+					"tabs" : [ "Mixolyian", "Dorian", "Wholetone", "Lydian", "Phrygian" ]
 				}
 
 			}
@@ -405,6 +417,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-30", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -451,6 +470,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
