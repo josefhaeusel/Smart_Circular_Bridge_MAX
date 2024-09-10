@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1006.0, 701.0 ],
+		"rect" : [ 34.0, 87.0, 1006.0, 698.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -194,7 +194,7 @@
 					"patching_rect" : [ 264.0, 657.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -4.0 ],
+							"parameter_initial" : [ -5.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~[1]",
 							"parameter_mmax" : 6.0,
