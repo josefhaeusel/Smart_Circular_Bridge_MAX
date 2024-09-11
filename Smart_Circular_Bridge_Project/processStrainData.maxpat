@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 277.0, 116.0, 1003.0, 701.0 ],
+		"rect" : [ 277.0, 87.0, 1003.0, 701.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -89,22 +89,6 @@
 			}
 , 			{
 				"box" : 				{
-					"grid" : 2,
-					"id" : "obj-6",
-					"interval" : 10.0,
-					"maxclass" : "live.scope~",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1049.0, 302.0, 443.0, 395.0 ],
-					"range" : [ -100.0, 100.0 ],
-					"samples" : 96000.0,
-					"vertical_divisions" : 10
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -141,6 +125,8 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
+					"activelinecolor" : [ 0.196078431372549, 0.984313725490196, 1.0, 1.0 ],
 					"grid" : 2,
 					"id" : "obj-13",
 					"interval" : 10.0,
@@ -148,7 +134,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 585.0, 302.0, 443.0, 395.0 ],
+					"patching_rect" : [ 602.0, 329.0, 443.0, 395.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 2.0, 204.0, 174.0 ],
+					"range" : [ -0.75, 0.75 ],
 					"samples" : 96000.0,
 					"vertical_divisions" : 10
 				}
@@ -216,6 +205,25 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 217.0, 104.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activelinecolor" : [ 0.980392156862745, 0.635294117647059, 0.164705882352941, 1.0 ],
+					"grid" : 2,
+					"id" : "obj-6",
+					"interval" : 10.0,
+					"maxclass" : "live.scope~",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 585.0, 329.0, 443.0, 395.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 2.0, 204.0, 174.0 ],
+					"range" : [ -75.0, 75.0 ],
+					"samples" : 96000.0,
+					"vertical_divisions" : 10
 				}
 
 			}

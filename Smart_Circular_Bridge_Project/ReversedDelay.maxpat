@@ -526,8 +526,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 257.0, 254.0, 26.0, 22.0 ],
-									"text" : "!- 1"
+									"patching_rect" : [ 257.0, 254.0, 36.0, 22.0 ],
+									"text" : "!- 0.5"
 								}
 
 							}
@@ -585,8 +585,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.333333333333343, 60.0, 19.0, 22.0 ],
-									"text" : "1"
+									"patching_rect" : [ 108.333333333333343, 60.0, 25.0, 22.0 ],
+									"text" : "0.5"
 								}
 
 							}
@@ -1168,7 +1168,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 290.0, 254.0, 67.0, 22.0 ],
+									"patching_rect" : [ 300.0, 254.0, 67.0, 22.0 ],
 									"text" : "dim delayL"
 								}
 
@@ -1251,8 +1251,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 108.333333333333343, 60.0, 19.0, 22.0 ],
-									"text" : "1"
+									"patching_rect" : [ 108.333333333333343, 60.0, 25.0, 22.0 ],
+									"text" : "0.5"
 								}
 
 							}
