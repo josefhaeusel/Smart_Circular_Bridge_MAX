@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 606.0, 101.0, 693.0, 686.0 ],
+		"rect" : [ 497.0, 87.0, 693.0, 686.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 295.5, 357.0, 54.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.5, 295.0, 171.0, 20.0 ],
+					"presentation_rect" : [ 254.5, 290.0, 52.0, 20.0 ],
 					"text" : "Volume"
 				}
 
@@ -59,9 +59,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 72.0, 161.0, 20.0 ],
+					"patching_rect" : [ 99.0, 72.0, 180.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 12.0, 161.0, 20.0 ],
+					"presentation_rect" : [ 48.0, 13.0, 187.0, 20.0 ],
 					"text" : "Ableitung der Accel. Daten"
 				}
 
@@ -143,7 +143,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -156,11 +156,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-32",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 131.0, 40.0, 30.0, 30.0 ]
 				}
 
@@ -169,7 +169,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-36",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -229,7 +229,44 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "makeNoteEvents.maxpat",
+				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "panner.maxpat",
+				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "playInstrument.maxpat",
+				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "polySampler.maxpat",
+				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "processAccelData.maxpat",
+				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
