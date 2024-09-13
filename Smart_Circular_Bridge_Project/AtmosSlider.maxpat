@@ -194,7 +194,7 @@
 					"patching_rect" : [ 264.0, 657.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -5.0 ],
+							"parameter_initial" : [ -9.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~[1]",
 							"parameter_mmax" : 6.0,
