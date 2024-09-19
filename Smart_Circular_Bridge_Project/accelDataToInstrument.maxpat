@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 522.0, 119.0, 693.0, 686.0 ],
+		"rect" : [ 639.0, 180.0, 693.0, 686.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -81,8 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 235.0, 474.0, 161.0, 22.0 ],
-					"text" : "playInstrument EntchenInstr."
+					"patching_rect" : [ 235.0, 474.0, 159.0, 22.0 ],
+					"text" : "playInstrument entchenInstr."
 				}
 
 			}
@@ -215,7 +215,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 50.0, 478.0, 137.0, 22.0 ],
-					"text" : "playInstrument #1"
+					"text" : "playInstrument marimba"
 				}
 
 			}

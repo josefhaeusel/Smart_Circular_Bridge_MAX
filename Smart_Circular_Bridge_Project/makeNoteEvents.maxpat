@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 131.0, 87.0, 853.0, 701.0 ],
+		"rect" : [ 122.0, 126.0, 853.0, 701.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.545098039215686, 0.701960784313725, 0.082352941176471, 1.0 ],
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 195.0, 208.0, 103.0, 22.0 ],
+					"text" : "s TriggerKontrolle"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "comment",
@@ -2720,10 +2732,10 @@
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "float", "float" ],
-					"patching_rect" : [ 123.0, 183.0, 210.0, 22.0 ],
-					"text" : "t b f f"
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "float", "float", "bang" ],
+					"patching_rect" : [ 123.0, 183.0, 50.5, 22.0 ],
+					"text" : "t b f f b"
 				}
 
 			}
@@ -3010,6 +3022,13 @@
 					"destination" : [ "obj-48", 1 ],
 					"order" : 1,
 					"source" : [ "obj-31", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-31", 3 ]
 				}
 
 			}
