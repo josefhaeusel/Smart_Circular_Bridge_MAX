@@ -310,14 +310,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 923.0, 373.5, 64.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 588.0, 141.5, 64.0, 136.0 ],
+					"presentation_rect" : [ 586.0, 141.0, 64.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"slidercolor" : 						{
 							"expression" : ""
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ -8 ],
+							"parameter_initial" : [ -6.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "2.Stimme",
 							"parameter_mmax" : 6.0,
@@ -1273,7 +1273,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1097.0, 650.0, 50.0, 35.0 ],
-									"text" : "-120 -120"
+									"text" : "-120 -118"
 								}
 
 							}
@@ -5085,6 +5085,13 @@
 					"destination" : [ "obj-89", 0 ],
 					"order" : 1,
 					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"source" : [ "obj-75", 0 ]
 				}
 
 			}
