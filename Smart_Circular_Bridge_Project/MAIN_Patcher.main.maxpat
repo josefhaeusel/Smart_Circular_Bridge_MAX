@@ -40,6 +40,72 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1150.0, 113.859156370162964, 115.0, 22.0 ],
+					"text" : "loadSamples drums"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 12.5,
+					"id" : "obj-98",
+					"lastchannelcount" : 2,
+					"maxclass" : "mc.live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1499.978892207145691, 954.333332002162933, 63.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ -2 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "Drums",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "Drums",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "mc.live.gain~[10]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1582.0, 915.500018298625946, 60.0, 33.0 ],
+					"text" : "OhneTonhöhe"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-91",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1233.0, 915.500018298625946, 60.0, 33.0 ],
+					"text" : "OhneTonhöhe"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -88,7 +154,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1578.0, 908.666644096374512, 62.0, 20.0 ],
+					"patching_rect" : [ 1434.0, 915.500018298625946, 62.0, 20.0 ],
 					"text" : "2.Melodie"
 				}
 
@@ -99,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1231.0, 914.500018298625946, 62.0, 20.0 ],
+					"patching_rect" : [ 1094.0, 915.500018298625946, 62.0, 20.0 ],
 					"text" : "2.Melodie"
 				}
 
@@ -261,14 +327,15 @@
 					"fontsize" : 16.0,
 					"gradient" : 1,
 					"id" : "obj-62",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 26.0 ],
+					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 346.0, 77.0, 161.0, 26.0 ],
-					"text" : "Mixolyian",
+					"text" : "AlleMeineEntchen",
 					"textjustification" : 1
 				}
 
@@ -1128,7 +1195,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1097.0, 650.0, 50.0, 35.0 ],
-									"text" : "-120 -120"
+									"text" : "-120 -117"
 								}
 
 							}
@@ -1376,9 +1443,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "accelDataToInstrument.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 974.0, 588.0, 308.974398016929626, 320.512861013412476 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 680.0, 329.0, 308.974398016929626, 320.512861013412476 ],
@@ -1475,9 +1542,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "accelDataToInstrument.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 2,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 1302.8169184923172, 586.330999910831451, 316.666706681251526, 320.512861013412476 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 996.0, 325.0, 316.666706681251526, 320.512861013412476 ],
@@ -2055,7 +2122,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 62.0, 1372.0, 804.0 ],
+						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2083,6 +2150,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-99",
@@ -4834,6 +4902,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-50", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"midpoints" : [ 120.5, 815.5, 120.5, 815.5 ],
 					"source" : [ "obj-53", 0 ]
@@ -5061,6 +5136,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-98", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-10" : [ "Rev. Delay", "Rev. Delay", 0 ],
@@ -5083,10 +5165,10 @@
 			"obj-6::obj-10" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
 			"obj-6::obj-13" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
 			"obj-6::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
-			"obj-6::obj-31" : [ "mc.live.gain~[4]", "mc.live.gain~", 0 ],
 			"obj-6::obj-336" : [ "Soundscapes", "Soundscapes", 0 ],
 			"obj-6::obj-9" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-9" : [ "Harp", "Harp", 0 ],
+			"obj-98" : [ "Drums", "Drums", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -5128,10 +5210,6 @@
 					"parameter_initial" : -10,
 					"parameter_initial_enable" : 1,
 					"parameter_longname" : "mc.live.gain~[3]"
-				}
-,
-				"obj-6::obj-31" : 				{
-					"parameter_longname" : "mc.live.gain~[4]"
 				}
 ,
 				"obj-6::obj-9" : 				{
@@ -5239,6 +5317,13 @@
 			}
 , 			{
 				"name" : "playInstrument.maxpat",
+				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "playOhneTonhöhe.maxpat",
 				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
