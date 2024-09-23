@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 211.0, 100.0, 693.0, 686.0 ],
+		"rect" : [ 482.0, 143.0, 693.0, 686.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,44 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 552.0, 409.0, 79.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "synthImpacts"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 481.5, 409.0, 67.0, 22.0 ],
+					"text" : "percussion"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.964705882352941, 0.635294117647059, 0.635294117647059, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 481.5, 376.0, 87.0, 22.0 ],
+					"text" : "r tonalOderPer"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
@@ -81,8 +119,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 426.0, 474.0, 143.0, 22.0 ],
-					"text" : "playOhneTonhöhe drums"
+					"patching_rect" : [ 426.0, 474.0, 167.0, 22.0 ],
+					"text" : "playOhneTonhöhe percussion"
 				}
 
 			}
@@ -318,6 +356,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 1,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"order" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
