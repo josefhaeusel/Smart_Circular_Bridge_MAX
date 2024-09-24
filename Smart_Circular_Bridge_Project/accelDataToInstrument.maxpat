@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 552.0, 409.0, 79.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "synthImpacts"
 				}
 
@@ -119,8 +118,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 426.0, 474.0, 167.0, 22.0 ],
-					"text" : "playOhneTonhöhe percussion"
+					"patching_rect" : [ 426.0, 474.0, 180.0, 22.0 ],
+					"text" : "playOhneTonhöhe synthImpacts"
 				}
 
 			}
