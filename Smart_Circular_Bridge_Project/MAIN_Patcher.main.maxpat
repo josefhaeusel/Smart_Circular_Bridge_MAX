@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 74.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,86 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 13.0,
+					"id" : "obj-114",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1327.0, 29.0, 145.0, 21.0 ],
+					"text" : "Laden der Melodien"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 13.0,
+					"id" : "obj-113",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 786.0, 28.028169512748718, 168.0, 21.0 ],
+					"text" : "Laden der Instrumente"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-112",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1529.0, 190.666672348976135, 235.0, 20.0 ],
+					"text" : "loadSamples \"maxMustermann_sound\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-111",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1529.0, 80.0, 235.0, 74.0 ],
+					"presentation_linecount" : 5,
+					"text" : "neunen Unterordner in Samples mit Bennenung: \"maxMustermann_sound\"\nSamples nach Velocity benannt: \"sample_vel._001\" weiters 020, 040, 060, 080, 100, 120, 127"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-110",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1513.0, 59.0, 233.0, 127.0 ],
+					"text" : "1. Ordnerstruktur:\n\n\n\n\n\n\n\n2. MaxMsp: ",
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 20.0,
+					"id" : "obj-108",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1513.0, 25.0, 260.0, 29.0 ],
+					"text" : "Anleitung:",
+					"textjustification" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.117647058823529, 0.329411764705882, 0.352941176470588, 1.0 ],
 					"id" : "obj-106",
@@ -258,7 +338,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1342.0, 49.0, 109.0, 22.0 ],
+					"patching_rect" : [ 1327.0, 66.0, 109.0, 22.0 ],
 					"text" : "loadData melodien"
 				}
 
@@ -416,7 +496,7 @@
 					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 346.0, 77.0, 161.0, 26.0 ],
-					"text" : "Mixolyian",
+					"text" : "Special15",
 					"textjustification" : 1
 				}
 
@@ -1276,7 +1356,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1097.0, 650.0, 50.0, 35.0 ],
-									"text" : "-120 -118"
+									"text" : "-120 -119"
 								}
 
 							}
@@ -1604,7 +1684,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 986.0, 83.0, 105.0, 22.0 ],
+					"patching_rect" : [ 987.0, 96.000001311302185, 105.0, 22.0 ],
 					"text" : "loadSamples harp"
 				}
 
@@ -1970,7 +2050,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 986.0, 49.0, 121.0, 22.0 ],
+					"patching_rect" : [ 987.0, 66.0, 121.0, 22.0 ],
 					"text" : "loadSamples Special"
 				}
 
@@ -3885,7 +3965,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 986.0, 121.0, 144.0, 22.0 ],
+					"patching_rect" : [ 986.0, 129.0, 144.0, 22.0 ],
 					"text" : "loadSamples naturklänge"
 				}
 
@@ -3896,7 +3976,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 818.0, 121.0, 147.0, 22.0 ],
+					"patching_rect" : [ 809.5, 129.0, 147.0, 22.0 ],
 					"text" : "loadSamples Strain-Layer"
 				}
 
@@ -3949,7 +4029,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 815.0, 83.0, 155.0, 22.0 ],
+					"patching_rect" : [ 809.5, 96.000001311302185, 155.0, 22.0 ],
 					"text" : "loadSamples soundscape"
 				}
 
@@ -4452,7 +4532,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 815.0, 49.0, 139.0, 22.0 ],
+					"patching_rect" : [ 809.5, 66.0, 139.0, 22.0 ],
 					"text" : "loadSamples marimba"
 				}
 
@@ -4611,6 +4691,22 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"background" : 1,
+					"bgcolor" : [ 0.964705882352941, 0.635294117647059, 0.635294117647059, 1.0 ],
+					"bordercolor" : [ 0.670588235294118, 0.43921568627451, 0.43921568627451, 1.0 ],
+					"id" : "obj-109",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1497.0, 21.0, 280.0, 238.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
 					"bgcolor" : [ 0.0, 0.627450980392157, 1.0, 0.23 ],
 					"bordercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ],
 					"id" : "obj-101",
@@ -4618,7 +4714,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1323.0, 26.0, 523.0, 138.366198420524597 ],
+					"patching_rect" : [ 1323.0, 26.0, 161.0, 138.366198420524597 ],
 					"proportion" : 0.5
 				}
 
