@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 74.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.117647058823529, 0.329411764705882, 0.352941176470588, 1.0 ],
+					"id" : "obj-106",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 728.333332002162933, 1086.0, 91.0, 22.0 ],
+					"text" : "s starkeSchritte"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.219607843137255, 0.607843137254902, 0.647058823529412, 1.0 ],
+					"id" : "obj-105",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 302.833332002162933, 1065.0, 93.0, 22.0 ],
+					"text" : "s leichteSchritte"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"htabcolor" : [ 0.811764705882353, 0.831372549019608, 0.305882352941176, 1.0 ],
 					"id" : "obj-104",
 					"maxclass" : "tab",
@@ -49,7 +73,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 337.0, 26.5, 244.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 733.0, 662.0, 244.0, 26.0 ],
+					"presentation_rect" : [ 454.0, 317.0, 152.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Percussion", "Game" ],
@@ -1252,7 +1276,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1097.0, 650.0, 50.0, 35.0 ],
-									"text" : "-120 -120"
+									"text" : "-120 -118"
 								}
 
 							}
@@ -5093,7 +5117,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 1,
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
+					"order" : 0,
 					"source" : [ "obj-75", 0 ]
 				}
 
@@ -5129,7 +5162,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
+					"destination" : [ "obj-105", 0 ],
+					"order" : 1,
 					"source" : [ "obj-83", 0 ]
 				}
 
@@ -5137,6 +5171,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
+					"order" : 0,
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 1,
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -5144,6 +5187,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
+					"order" : 0,
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 1,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -5151,6 +5203,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
+					"order" : 0,
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 1,
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -5158,6 +5219,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
+					"order" : 0,
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"order" : 0,
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -5165,6 +5235,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
+					"order" : 1,
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"order" : 0,
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -5172,6 +5251,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
+					"order" : 1,
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"order" : 0,
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"order" : 1,
 					"source" : [ "obj-89", 0 ]
 				}
 

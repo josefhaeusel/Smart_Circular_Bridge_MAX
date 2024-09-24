@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 482.0, 143.0, 693.0, 686.0 ],
+		"rect" : [ 158.0, 104.0, 809.0, 686.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 552.0, 409.0, 79.0, 22.0 ],
+					"patching_rect" : [ 572.0, 356.0, 79.0, 22.0 ],
 					"text" : "synthImpacts"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.5, 409.0, 67.0, 22.0 ],
+					"patching_rect" : [ 497.0, 356.0, 67.0, 22.0 ],
 					"text" : "percussion"
 				}
 
@@ -70,7 +70,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.5, 376.0, 87.0, 22.0 ],
+					"patching_rect" : [ 554.0, 316.0, 87.0, 22.0 ],
 					"text" : "r tonalOderPer"
 				}
 
@@ -119,7 +119,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 426.0, 474.0, 180.0, 22.0 ],
-					"text" : "playOhneTonhöhe synthImpacts"
+					"text" : "playOhneTonhöhe synthImpacts",
+					"varname" : "changeFormat"
 				}
 
 			}
