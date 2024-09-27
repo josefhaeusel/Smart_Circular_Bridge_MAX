@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 290.0, 87.0, 1116.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,85 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.964705882352941, 0.635294117647059, 0.635294117647059, 1.0 ],
+					"id" : "obj-118",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 337.0, 84.183099210262299, 93.0, 22.0 ],
+					"text" : "s tonaloderPerc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-117",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 337.0, 14.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-116",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1237.0, 915.500018298625946, 60.0, 20.0 ],
+					"text" : "Game"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-115",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1570.0, 917.833332002162933, 60.0, 20.0 ],
+					"text" : "Game"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 12.5,
+					"id" : "obj-107",
+					"lastchannelcount" : 2,
+					"maxclass" : "mc.live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1077.0, 373.5, 63.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 737.0, 141.5, 63.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ -2 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "GAME",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "GAME",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "mc.live.gain~[11]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 13.0,
@@ -85,7 +164,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1529.0, 80.0, 235.0, 74.0 ],
-					"presentation_linecount" : 5,
 					"text" : "neunen Unterordner in Samples mit Bennenung: \"maxMustermann_sound\"\nSamples nach Velocity benannt: \"sample_vel._001\" weiters 020, 040, 060, 080, 100, 120, 127"
 				}
 
@@ -99,8 +177,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1513.0, 59.0, 233.0, 127.0 ],
-					"text" : "1. Ordnerstruktur:\n\n\n\n\n\n\n\n2. MaxMsp: ",
-					"textjustification" : 0
+					"text" : "1. Ordnerstruktur:\n\n\n\n\n\n\n\n2. MaxMsp: "
 				}
 
 			}
@@ -113,8 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1513.0, 25.0, 260.0, 29.0 ],
-					"text" : "Anleitung:",
-					"textjustification" : 0
+					"text" : "Anleitung:"
 				}
 
 			}
@@ -151,9 +227,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 337.0, 26.5, 244.0, 26.0 ],
+					"patching_rect" : [ 337.0, 47.0, 244.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 454.0, 317.0, 152.0, 22.0 ],
+					"presentation_rect" : [ 454.0, 320.0, 152.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Percussion", "Game" ],
@@ -172,18 +248,6 @@
 					"tabcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tabs" : [ "Percussion", "Game" ],
 					"varname" : "tab[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.964705882352941, 0.635294117647059, 0.635294117647059, 1.0 ],
-					"id" : "obj-103",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 337.0, 61.5, 95.0, 22.0 ],
-					"text" : "s tonalOderPerc"
 				}
 
 			}
@@ -227,11 +291,11 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -2 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Special15",
+							"parameter_longname" : "Percussion",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Special15",
+							"parameter_shortname" : "Percussion",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -249,7 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1582.0, 915.500018298625946, 60.0, 33.0 ],
+					"patching_rect" : [ 1463.0, 917.833332002162933, 60.0, 33.0 ],
 					"text" : "OhneTonhöhe"
 				}
 
@@ -261,7 +325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1233.0, 915.500018298625946, 60.0, 33.0 ],
+					"patching_rect" : [ 1142.0, 917.833332002162933, 60.0, 33.0 ],
 					"text" : "OhneTonhöhe"
 				}
 
@@ -316,7 +380,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1434.0, 915.500018298625946, 62.0, 20.0 ],
+					"patching_rect" : [ 1374.0, 916.500018298625946, 62.0, 20.0 ],
 					"text" : "2.Melodie"
 				}
 
@@ -327,7 +391,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1094.0, 915.500018298625946, 62.0, 20.0 ],
+					"patching_rect" : [ 1044.0, 915.500018298625946, 62.0, 20.0 ],
 					"text" : "2.Melodie"
 				}
 
@@ -496,7 +560,7 @@
 					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 346.0, 77.0, 161.0, 26.0 ],
-					"text" : "Special15",
+					"text" : "Percussion",
 					"textjustification" : 1
 				}
 
@@ -1356,7 +1420,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1097.0, 650.0, 50.0, 35.0 ],
-									"text" : "-120 -119"
+									"text" : "-120 -120"
 								}
 
 							}
@@ -1604,9 +1668,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "accelDataToInstrument.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
+					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 974.0, 588.0, 308.974398016929626, 320.512861013412476 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 680.0, 329.0, 308.974398016929626, 320.512861013412476 ],
@@ -1703,9 +1767,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "accelDataToInstrument.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 3,
+					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
+					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal" ],
 					"patching_rect" : [ 1302.8169184923172, 586.330999910831451, 316.666706681251526, 320.512861013412476 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 996.0, 325.0, 316.666706681251526, 320.512861013412476 ],
@@ -4553,9 +4617,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1105.0, 379.0, 210.0, 178.0 ],
+					"patching_rect" : [ 1162.0, 380.0, 210.0, 178.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 778.974398016929626, 118.0, 210.0, 178.0 ],
+					"presentation_rect" : [ 841.0, 115.0, 210.0, 178.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -4764,9 +4828,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.333332002162933, 342.253525614738464, 805.0, 221.0 ],
+					"patching_rect" : [ 291.333332002162933, 342.253525614738464, 855.0, 221.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 115.0, 718.0, 189.0 ],
+					"presentation_rect" : [ 32.0, 115.0, 777.0, 189.0 ],
 					"proportion" : 0.5
 				}
 
@@ -4800,16 +4864,30 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
+					"destination" : [ "obj-118", 0 ],
 					"source" : [ "obj-104", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"midpoints" : [ 1114.5, 565.500008821487427, 782.0, 565.500008821487427, 782.0, 247.0, 580.5, 247.0 ],
+					"midpoints" : [ 1171.5, 565.500008821487427, 782.0, 565.500008821487427, 782.0, 247.0, 580.5, 247.0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"source" : [ "obj-117", 0 ]
 				}
 
 			}
@@ -4862,7 +4940,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 220.422537446022034, 268.750004410743713, 1114.5, 268.750004410743713 ],
+					"midpoints" : [ 220.422537446022034, 268.750004410743713, 1171.5, 268.750004410743713 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -5048,6 +5126,13 @@
 					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 120.5, 974.0, 120.5, 974.0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-50", 3 ]
 				}
 
 			}
@@ -5412,6 +5497,7 @@
 		"parameters" : 		{
 			"obj-10" : [ "Rev. Delay", "Rev. Delay", 0 ],
 			"obj-104" : [ "tab[2]", "tab", 0 ],
+			"obj-107" : [ "GAME", "GAME", 0 ],
 			"obj-12" : [ "tab[1]", "tab", 0 ],
 			"obj-13" : [ "Dry Wet", "Dry Wet", 0 ],
 			"obj-15::obj-8" : [ "Dry/Wet", "Dry/Wet", 0 ],
@@ -5434,7 +5520,7 @@
 			"obj-6::obj-336" : [ "Soundscapes", "Soundscapes", 0 ],
 			"obj-6::obj-9" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-9" : [ "Harp", "Harp", 0 ],
-			"obj-98" : [ "Special15", "Special15", 0 ],
+			"obj-98" : [ "Percussion", "Percussion", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
