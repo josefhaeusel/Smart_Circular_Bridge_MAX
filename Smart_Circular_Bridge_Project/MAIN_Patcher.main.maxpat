@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 922.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -99,7 +99,7 @@
 					"presentation_rect" : [ 796.0, 141.5, 64.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -19 ],
+							"parameter_initial" : [ -20 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "DelayGames",
 							"parameter_mmax" : 6.0,
@@ -1215,7 +1215,7 @@
 					"presentation_rect" : [ 660.0, 142.0, 64.0, 135.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -4 ],
+							"parameter_initial" : [ -14 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Percussion",
 							"parameter_mmax" : 6.0,
@@ -2346,7 +2346,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1097.0, 650.0, 50.0, 35.0 ],
-									"text" : "-120 -120"
+									"text" : "-120 -119"
 								}
 
 							}
@@ -5856,17 +5856,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-146", 0 ],
+					"destination" : [ "obj-124", 0 ],
 					"order" : 0,
-					"source" : [ "obj-122", 3 ]
+					"source" : [ "obj-122", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"order" : 1,
-					"source" : [ "obj-122", 2 ]
+					"destination" : [ "obj-146", 0 ],
+					"order" : 0,
+					"source" : [ "obj-122", 3 ]
 				}
 
 			}
@@ -5897,7 +5897,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-122", 2 ]
 				}
 
@@ -6321,17 +6321,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-146", 0 ],
+					"destination" : [ "obj-124", 0 ],
 					"order" : 0,
-					"source" : [ "obj-50", 3 ]
+					"source" : [ "obj-50", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"order" : 1,
-					"source" : [ "obj-50", 2 ]
+					"destination" : [ "obj-146", 0 ],
+					"order" : 0,
+					"source" : [ "obj-50", 3 ]
 				}
 
 			}
@@ -6371,7 +6371,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-50", 2 ]
 				}
 
@@ -6678,7 +6678,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-98", 0 ]
 				}
 
