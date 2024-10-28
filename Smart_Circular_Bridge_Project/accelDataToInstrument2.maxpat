@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 347.0, 119.0, 996.0, 688.0 ],
+		"rect" : [ -141.0, -934.0, 996.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -81,8 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 628.0, 474.0, 180.0, 22.0 ],
-					"text" : "playOhneTonhöhe synthImpacts",
+					"patching_rect" : [ 628.0, 474.0, 137.0, 22.0 ],
+					"text" : "playInstrument #4",
 					"varname" : "changeFormat[1]"
 				}
 
@@ -126,12 +126,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 426.0, 474.0, 167.0, 22.0 ],
-					"text" : "playOhneTonhöhe percussion",
+					"patching_rect" : [ 426.0, 474.0, 142.0, 35.0 ],
+					"text" : "playOhneTonhöhe #3 percussive",
 					"varname" : "changeFormat"
 				}
 
@@ -155,8 +156,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 235.0, 569.0, 72.0, 22.0 ],
-					"text" : "panner #2"
+					"patching_rect" : [ 235.0, 569.0, 63.0, 22.0 ],
+					"text" : "panner #5"
 				}
 
 			}
@@ -180,7 +181,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 235.0, 474.0, 159.0, 22.0 ],
-					"text" : "playInstrument entchenInstr."
+					"text" : "playInstrument #2"
 				}
 
 			}
@@ -264,8 +265,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 50.0, 569.0, 72.0, 22.0 ],
-					"text" : "panner #2"
+					"patching_rect" : [ 50.0, 569.0, 63.0, 22.0 ],
+					"text" : "panner #5"
 				}
 
 			}
@@ -312,8 +313,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 50.0, 478.0, 115.0, 22.0 ],
-					"text" : "playInstrument harp"
+					"patching_rect" : [ 50.0, 478.0, 145.0, 22.0 ],
+					"text" : "playInstrument #1"
 				}
 
 			}

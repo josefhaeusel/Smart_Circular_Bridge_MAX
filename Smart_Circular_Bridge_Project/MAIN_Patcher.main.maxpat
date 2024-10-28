@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 922.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1150.0, 164.0, 127.0, 22.0 ],
+					"text" : "loadSamples gaming2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-125",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -68,13 +79,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.870236396789551, 1142.129610568284988, 54.0, 22.0 ],
+					"patching_rect" : [ 89.870236396789551, 1207.666667997837067, 54.0, 22.0 ],
 					"text" : "mc.dac~"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "marimba2", "entchenInstr.", "percussion", "gaming2", -1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -454,12 +466,12 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1077.0, 373.5, 63.0, 136.0 ],
+					"patching_rect" : [ 1080.0, 373.5, 63.0, 136.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 737.0, 141.5, 63.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -2 ],
+							"parameter_initial" : [ -5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "GAME",
 							"parameter_mmax" : 6.0,
@@ -616,8 +628,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1150.0, 134.830986857414246, 152.0, 22.0 ],
-					"text" : "loadSamples synthImpacts"
+					"patching_rect" : [ 1150.0, 134.830986857414246, 127.0, 22.0 ],
+					"text" : "loadSamples gaming1"
 				}
 
 			}
@@ -648,7 +660,7 @@
 					"presentation_rect" : [ 660.0, 142.0, 64.0, 135.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -2 ],
+							"parameter_initial" : [ -4 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Percussion",
 							"parameter_mmax" : 6.0,
@@ -1510,7 +1522,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 1302.8169184923172, 914.500018298625946, 60.0, 22.0 ],
+					"patching_rect" : [ 1307.0, 915.500018298625946, 60.0, 22.0 ],
 					"text" : "mc.*~ 0.6"
 				}
 
@@ -1779,7 +1791,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1097.0, 650.0, 50.0, 35.0 ],
-									"text" : "-120 -120"
+									"text" : "-120 -54"
 								}
 
 							}
@@ -2060,7 +2072,7 @@
 					"presentation_rect" : [ 47.0, 139.0, 63.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -9.0 ],
+							"parameter_initial" : [ -4.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Harp",
 							"parameter_mmax" : 6.0,
@@ -2083,14 +2095,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.0, 96.000001311302185, 105.0, 22.0 ],
-					"text" : "loadSamples harp"
+					"patching_rect" : [ 987.0, 96.000001311302185, 135.0, 22.0 ],
+					"text" : "loadSamples marimba2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "marimba", 1 ],
+					"args" : [ "marimba", "entchenInstr.", "percussion", "gaming1", 1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2100,7 +2112,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "accelDataToInstrument.maxpat",
+					"name" : "accelDataToInstrument2.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
@@ -2710,7 +2722,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-99",
@@ -2940,7 +2951,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 32.0, 50.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -4405,7 +4416,7 @@
 					"presentation_rect" : [ 85.0, 77.0, 244.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Warm", "Kalt" ],
+							"parameter_enum" : [ "Spannung_gering", "Spannung_hoch" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "tab[1]",
@@ -4417,7 +4428,7 @@
 
 					}
 ,
-					"tabs" : [ "Warm", "Kalt" ],
+					"tabs" : [ "Spannung_gering", "Spannung_hoch" ],
 					"varname" : "tab[1]"
 				}
 
@@ -5118,7 +5129,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 786.0, 26.0, 523.0, 138.366198420524597 ],
+					"patching_rect" : [ 786.0, 26.0, 532.0, 168.267607092857361 ],
 					"proportion" : 0.5
 				}
 
@@ -5274,6 +5285,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-122", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"order" : 1,
+					"source" : [ "obj-122", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-122", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"order" : 0,
 					"source" : [ "obj-122", 0 ]
@@ -5291,8 +5324,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-123", 0 ]
+					"destination" : [ "obj-98", 0 ],
+					"order" : 0,
+					"source" : [ "obj-122", 2 ]
 				}
 
 			}
@@ -5309,6 +5343,22 @@
 					"destination" : [ "obj-123", 0 ],
 					"order" : 1,
 					"source" : [ "obj-125", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 3 ],
+					"order" : 0,
+					"source" : [ "obj-125", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 1 ],
+					"order" : 1,
+					"source" : [ "obj-125", 0 ]
 				}
 
 			}
@@ -5632,7 +5682,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 1312.3169184923172, 948.0, 1038.0, 948.0, 1038.0, 217.0, 712.5, 217.0 ],
+					"midpoints" : [ 1316.5, 948.0, 1038.0, 948.0, 1038.0, 217.0, 712.5, 217.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -5640,6 +5690,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
+					"order" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"order" : 1,
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -6121,13 +6180,6 @@
 			}
 , 			{
 				"name" : "Testdaten.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "accelDataToInstrument.maxpat",
 				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

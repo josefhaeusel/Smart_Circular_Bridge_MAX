@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 451.0, 409.0, 55.0, 22.0 ],
+					"text" : "60. 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
 					"index" : 4,
@@ -81,8 +93,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 628.0, 474.0, 180.0, 22.0 ],
-					"text" : "playOhneTonhöhe synthImpacts",
+					"patching_rect" : [ 628.0, 474.0, 155.0, 22.0 ],
+					"text" : "playOhneTonhöhe gaming1",
 					"varname" : "changeFormat[1]"
 				}
 
@@ -409,6 +421,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
 					"source" : [ "obj-27", 2 ]
 				}
 
@@ -417,6 +430,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-27", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 1 ],
+					"order" : 0,
+					"source" : [ "obj-27", 2 ]
 				}
 
 			}

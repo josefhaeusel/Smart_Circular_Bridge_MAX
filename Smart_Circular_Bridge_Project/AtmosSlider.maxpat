@@ -432,8 +432,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 429.0, 48.0, 95.0, 22.0 ],
-					"text" : "route Warm Kalt"
+					"patching_rect" : [ 429.0, 48.0, 225.0, 22.0 ],
+					"text" : "route Spannung_gering Spannung_hoch"
 				}
 
 			}

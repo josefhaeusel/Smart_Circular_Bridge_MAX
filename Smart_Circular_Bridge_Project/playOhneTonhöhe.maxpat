@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 274.0, 87.0, 900.0, 701.0 ],
+		"rect" : [ -22.0, 87.0, 494.0, 701.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -66,12 +66,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 377.0, 206.0, 50.0, 22.0 ],
-					"text" : "67 100"
+					"patching_rect" : [ 377.0, 206.0, 50.0, 49.0 ],
+					"text" : "midievent 144 60 3"
 				}
 
 			}
@@ -233,13 +234,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 247.0, 285.0, 100.0, 49.0 ],
-					"text" : "poly~ polySampler 16 args #1"
+					"patching_rect" : [ 247.0, 285.0, 273.0, 22.0 ],
+					"text" : "poly~ polySampler 16 args #1 percussive"
 				}
 
 			}
@@ -259,16 +259,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -289,7 +280,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"order" : 0,
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
 					"source" : [ "obj-17", 1 ]
 				}
 
