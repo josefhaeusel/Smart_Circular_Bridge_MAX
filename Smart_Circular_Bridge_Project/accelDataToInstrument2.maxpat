@@ -69,8 +69,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 628.0, 565.0, 56.0, 22.0 ],
-					"text" : "panner 0"
+					"patching_rect" : [ 628.0, 565.0, 63.0, 22.0 ],
+					"text" : "panner #5"
 				}
 
 			}
@@ -118,8 +118,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 426.0, 565.0, 56.0, 22.0 ],
-					"text" : "panner 0"
+					"patching_rect" : [ 426.0, 565.0, 63.0, 22.0 ],
+					"text" : "panner #5"
 				}
 
 			}
