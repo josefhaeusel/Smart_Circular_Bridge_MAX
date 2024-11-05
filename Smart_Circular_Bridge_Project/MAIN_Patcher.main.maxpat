@@ -4965,7 +4965,7 @@
 					"presentation_rect" : [ 85.0, 77.0, 244.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Spannung_gering", "Spannung_hoch" ],
+							"parameter_enum" : [ "Spannung gering", "Spannung hoch" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "tab[1]",
@@ -4977,7 +4977,7 @@
 
 					}
 ,
-					"tabs" : [ "Spannung_gering", "Spannung_hoch" ],
+					"tabs" : [ "Spannung gering", "Spannung hoch" ],
 					"varname" : "tab[1]"
 				}
 
