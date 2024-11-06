@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 119.0, 90.0, 1216.0, 747.0 ],
+		"rect" : [ -224.0, -993.0, 1274.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1274,7 +1274,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-324",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1881,7 +1881,34 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-10" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
+			"obj-13" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
+			"obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
+			"obj-336" : [ "Soundscapes", "Soundscapes", 0 ],
+			"obj-9" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "atmosFade.maxpat",
+				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
