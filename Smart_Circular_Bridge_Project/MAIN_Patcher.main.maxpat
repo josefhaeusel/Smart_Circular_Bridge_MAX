@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1083.0, 779.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1191,7 +1191,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1529.0, 80.0, 235.0, 74.0 ],
+					"patching_rect" : [ 1529.0, 80.0, 235.0, 75.0 ],
 					"text" : "neunen Unterordner in Samples mit Bennenung: \"maxMustermann_sound\"\nSamples nach Velocity benannt: \"sample_vel._001\" weiters 020, 040, 060, 080, 100, 120, 127"
 				}
 
@@ -1204,7 +1204,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1513.0, 59.0, 233.0, 127.0 ],
+					"patching_rect" : [ 1513.0, 59.0, 233.0, 131.0 ],
 					"text" : "1. Ordnerstruktur:\n\n\n\n\n\n\n\n2. MaxMsp: "
 				}
 
@@ -1341,7 +1341,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1548.0, 945.243578642606735, 60.0, 33.0 ],
+					"patching_rect" : [ 1548.0, 945.243578642606735, 60.0, 34.0 ],
 					"text" : "OhneTonhöhe"
 				}
 
@@ -1353,7 +1353,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1206.0, 937.0, 60.0, 33.0 ],
+					"patching_rect" : [ 1206.0, 937.0, 60.0, 34.0 ],
 					"text" : "OhneTonhöhe"
 				}
 
@@ -1364,8 +1364,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1150.0, 78.0, 136.0, 22.0 ],
-					"text" : "loadSamples woodInstr."
+					"patching_rect" : [ 1150.0, 78.0, 133.0, 22.0 ],
+					"text" : "loadSamples woodInstr"
 				}
 
 			}
@@ -1468,8 +1468,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1150.0, 49.0, 150.0, 22.0 ],
-					"text" : "loadSamples entchenInstr."
+					"patching_rect" : [ 1150.0, 49.0, 147.0, 22.0 ],
+					"text" : "loadSamples entchenInstr"
 				}
 
 			}
@@ -1535,7 +1535,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 726.0, 1043.0, 67.0, 33.0 ],
+					"patching_rect" : [ 726.0, 1043.0, 67.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 362.375016510486603, 479.0, 77.999979019165039, 20.0 ],
 					"text" : "Hüpfspiel*"
@@ -1585,9 +1585,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 26.0 ],
+					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 77.0, 161.0, 26.0 ],
+					"presentation_rect" : [ 346.0, 77.0, 161.0, 27.0 ],
 					"text" : "Mixolyian",
 					"textjustification" : 1
 				}
@@ -2224,7 +2224,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 14.0, 305.0, 51.0 ],
+					"patching_rect" : [ 17.0, 14.0, 305.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 20.0, 355.0, 29.0 ],
 					"text" : "Smart Circular Bridge - AudioDemo"
@@ -2448,7 +2448,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1097.0, 650.0, 50.0, 35.0 ],
-									"text" : "-120 -87"
+									"text" : "-120 -120"
 								}
 
 							}
@@ -2673,10 +2673,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1553.0, 342.253525614738464, 185.0, 33.0 ],
+					"patching_rect" : [ 1553.0, 342.253525614738464, 185.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1171.5, 115.0, 185.0, 33.0 ],
+					"presentation_rect" : [ 1171.5, 115.0, 185.0, 34.0 ],
 					"text" : "Sidechain Ducking (Soundscapes) bei viel Betrieb",
 					"textjustification" : 2
 				}
@@ -3272,10 +3272,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 696.0, 119.0, 51.0 ],
+					"patching_rect" : [ 364.0, 696.0, 119.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 40.0, 402.0, 119.0, 51.0 ],
+					"presentation_rect" : [ 40.0, 402.0, 119.0, 52.0 ],
 					"text" : "Tag-Modus (6-22h)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
@@ -3291,10 +3291,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 494.0, 696.0, 141.0, 51.0 ],
+					"patching_rect" : [ 494.0, 696.0, 141.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 188.0, 402.0, 141.0, 51.0 ],
+					"presentation_rect" : [ 188.0, 402.0, 141.0, 52.0 ],
 					"text" : "Nacht-Modus (22-6h)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
@@ -5577,7 +5577,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 170.422537446022034, 235.211270689964294, 100.0, 22.0 ],
+					"patching_rect" : [ 269.0, 228.0, 100.0, 22.0 ],
 					"text" : "Testdaten"
 				}
 
@@ -6347,7 +6347,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 220.422537446022034, 268.750004410743713, 1404.5, 268.750004410743713 ],
+					"midpoints" : [ 319.0, 268.750004410743713, 1404.5, 268.750004410743713 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -6355,7 +6355,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
-					"midpoints" : [ 260.922537446022034, 374.0, 1049.5, 374.0 ],
+					"midpoints" : [ 359.5, 374.0, 1049.5, 374.0 ],
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -6363,7 +6363,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 179.922537446022034, 374.0, 1397.5, 374.0 ],
+					"midpoints" : [ 278.5, 374.0, 1397.5, 374.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -6935,7 +6935,9 @@
 			"obj-6::obj-10" : [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
 			"obj-6::obj-13" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
 			"obj-6::obj-16" : [ "mc.live.gain~[3]", "mc.live.gain~", 0 ],
+			"obj-6::obj-22" : [ "mc.live.gain~[4]", "mc.live.gain~", 0 ],
 			"obj-6::obj-336" : [ "Soundscapes", "Soundscapes", 0 ],
+			"obj-6::obj-35" : [ "mc.live.gain~[7]", "mc.live.gain~", 0 ],
 			"obj-6::obj-9" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-9" : [ "Harp", "2.Instr.", 0 ],
 			"obj-98" : [ "Percussion", "Percussion", 0 ],
@@ -6996,138 +6998,138 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "AtmosSlider.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KE-Logo.png",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project/Pics",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project/Pics",
 				"patcherrelativepath" : "./Pics",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ReversedDelay.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "StrainSlider.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Testdaten.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "accelDataToInstrument2.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atmosFade.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "convert.js",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jumping-svgrepo-com.svg",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project/Pics",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project/Pics",
 				"patcherrelativepath" : "./Pics",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loadData.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loadSamples.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "makeNoteEvents.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "panner.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playInstrument.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playOhneTonhöhe.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polySampler.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "processAccelData.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "processStrainData.maxpat",
-				"bootpath" : "~/Desktop/Projekte/Smart_Circular_Bridge/GIT_Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sadam.udpReceiver.mxo",
-				"type" : "iLaX"
+				"name" : "sadam.udpReceiver.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../AppData/Roaming/Cycling '74/Max 8/examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
