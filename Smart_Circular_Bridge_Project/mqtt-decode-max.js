@@ -69,12 +69,14 @@ const decodeMessage = (Payload, bufferMessage) => {
       const decodedMessage = decodeMessage(Payload, payload);
       //console.log('Decoded message:', decodedMessage);
       const dataValues = decodedMessage.metrics[0].datasetValue.rows[0].elements
+      const sensorFullName = decodedMessage.metrics[0].name
+      const sensorNumber = "accel"+sensorFullName[sensorFullName.length-1]
       //console.log('JSON message:', dataValues);
       const doubleValues = extractDoubleValues(dataValues)
       //console.log('doubleValues:', doubleValues);
 
       // Max.post(doubleValues)
-      Max.outlet(doubleValues)
+      Max.outlet([sensorNumber, ...doubleValues])
 
     } catch (err) {
       console.error('Error processing message:', err);
@@ -85,7 +87,7 @@ const decodeMessage = (Payload, bufferMessage) => {
     console.error('MQTT Client Error:', err);
   });
 };
-
+//-dewesoftX_SCB_ULM_RSE_ACC_LON002_TRA003_Y_nr
 // Run the script
 Max.addHandler('connect', () => {
 
