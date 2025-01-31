@@ -32,8 +32,9 @@ Max.addHandler('connect', (topic) => {
 
       const json = JSON.parse(buffer)
       console.log(topic, json);
-      // Max.post(topic, json);
-      Max.outlet([topic, json]);
+	  const strainValues = json.strain_values
+      const sensor = 'strain'+json.index_channel// Max.post(topic, json);
+      Max.outlet([sensor,...strainValues]);
 
     });
 

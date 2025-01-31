@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -170.0, -986.0, 1692.0, 912.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -123,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 1287.0, 440.950807571411133, 87.0, 49.0 ],
+					"patching_rect" : [ 1287.0, 440.950807571411133, 87.0, 50.0 ],
 					"text" : "play~ soundscape.6 2 @loop 1"
 				}
 
@@ -278,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 989.0, 440.950807571411133, 87.0, 49.0 ],
+					"patching_rect" : [ 989.0, 440.950807571411133, 87.0, 50.0 ],
 					"text" : "play~ soundscape.5 2 @loop 1"
 				}
 
@@ -407,6 +407,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -696,7 +697,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1024.0, 798.0, 79.0, 49.0 ],
+					"patching_rect" : [ 1084.0, 736.0, 79.0, 50.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -715,8 +716,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 1003.0, 854.0, 100.0, 22.0 ],
-					"text" : "mc.*~"
+					"patching_rect" : [ 1003.0, 854.0, 53.0, 22.0 ],
+					"text" : "mc.*~ 1."
 				}
 
 			}
@@ -729,7 +730,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.450807571411133, 15.0, 66.0, 17.0 ],
+					"patching_rect" : [ 433.450807571411133, 15.0, 66.0, 18.0 ],
 					"text" : "r MOOD_NAME"
 				}
 
@@ -1038,7 +1039,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 682.0, 142.622946739196777, 150.0, 60.0 ],
+					"patching_rect" : [ 682.0, 142.622946739196777, 150.0, 62.0 ],
 					"text" : "Hier müssten die Temperatur-Werte reinkommen (Soundscapes switchen)"
 				}
 
@@ -1221,7 +1222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 754.0, 440.950807571411133, 87.0, 49.0 ],
+					"patching_rect" : [ 754.0, 440.950807571411133, 87.0, 50.0 ],
 					"text" : "play~ soundscape.4 2 @loop 1"
 				}
 
@@ -1311,7 +1312,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 498.360641479492188, 437.70490550994873, 97.0, 49.0 ],
+					"patching_rect" : [ 498.360641479492188, 437.70490550994873, 97.0, 50.0 ],
 					"text" : "play~ soundscape.3 2 @loop 1"
 				}
 
@@ -1324,7 +1325,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 337.70490837097168, 437.70490550994873, 77.0, 49.0 ],
+					"patching_rect" : [ 337.70490837097168, 437.70490550994873, 77.0, 50.0 ],
 					"text" : "play~ soundscape.2 2 @loop 1"
 				}
 
@@ -1361,7 +1362,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "bang" ],
-					"patching_rect" : [ 81.96721076965332, 437.70490550994873, 90.0, 49.0 ],
+					"patching_rect" : [ 81.96721076965332, 437.70490550994873, 90.0, 50.0 ],
 					"text" : "play~ soundscape.1 2 @loop 1"
 				}
 
@@ -1910,6 +1911,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
+					"disabled" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 

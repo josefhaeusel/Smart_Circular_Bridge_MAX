@@ -100,6 +100,8 @@ connectMqtt().catch((err) => {
 
 function extractDoubleValues(data) {
   return data
-    .filter(item => item.doubleValue !== undefined)  // Filter objects with 'doubleValue'
+    .filter(item => item.doubleValue !== undefined)
+    .filter(item => item.doubleValue !== 0)
+
     .map(item => item.doubleValue);  // Extract the 'doubleValue' property
 }
