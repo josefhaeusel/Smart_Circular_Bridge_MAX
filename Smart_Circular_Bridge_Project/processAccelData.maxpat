@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 995.0, 85.0, 890.0, 912.0 ],
+		"rect" : [ 995.0, 85.0, 490.0, 912.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"horizonal_divisions" : 100,
 					"horizontal_divisions" : 100,
 					"id" : "obj-23",
-					"interval" : 10.0,
+					"interval" : 84.0,
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -120,7 +120,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-59",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -245,8 +245,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 216.0, 225.0, 129.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 101.0, 162.0, 129.0, 22.0 ],
 					"text" : "rampsmooth~ 5 15000"
 				}
 
@@ -259,12 +257,12 @@
 					"horizonal_divisions" : 10,
 					"horizontal_divisions" : 10,
 					"id" : "obj-5",
-					"interval" : 10.0,
+					"interval" : 82.0,
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 582.0, 33.0, 252.0, 252.0 ],
+					"patching_rect" : [ 578.0, 55.0, 252.0, 252.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 1.0, 252.0, 252.0 ],
 					"range" : [ 0.0, 0.5 ],
@@ -301,7 +299,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -316,7 +314,7 @@
 					"horizonal_divisions" : 100,
 					"horizontal_divisions" : 100,
 					"id" : "obj-13",
-					"interval" : 10.0,
+					"interval" : 80.0,
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -518,7 +516,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 225.5, 249.0, 201.0, 249.0, 201.0, 27.0, 591.5, 27.0 ],
+					"midpoints" : [ 225.5, 249.0, 201.0, 249.0, 201.0, 27.0, 587.5, 27.0 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
@@ -540,9 +538,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

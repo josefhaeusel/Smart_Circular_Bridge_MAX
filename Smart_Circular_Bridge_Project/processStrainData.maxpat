@@ -150,7 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 451.0, 688.0, 31.0, 22.0 ],
+					"patching_rect" : [ 353.0, 703.0, 31.0, 22.0 ],
 					"text" : "sig~"
 				}
 
@@ -158,12 +158,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 722.0, 38.0, 22.0 ],
-					"text" : "0"
+					"patching_rect" : [ 279.0, 722.0, 38.0, 36.0 ],
+					"text" : "0.083424"
 				}
 
 			}
@@ -208,7 +209,7 @@
 					"activelinecolor" : [ 0.196078431372549, 0.984313725490196, 1.0, 1.0 ],
 					"grid" : 2,
 					"id" : "obj-21",
-					"interval" : 10.0,
+					"interval" : 80.0,
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -227,7 +228,7 @@
 					"activelinecolor" : [ 0.980392156862745, 0.635294117647059, 0.164705882352941, 1.0 ],
 					"grid" : 2,
 					"id" : "obj-22",
-					"interval" : 10.0,
+					"interval" : 80.0,
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -250,7 +251,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 318.0, 141.0, 50.0, 36.0 ],
-					"text" : "1.119048"
+					"text" : "-21.012126"
 				}
 
 			}
@@ -322,8 +323,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 215.5, 286.0, 50.0, 22.0 ],
-					"text" : "*~ 1600"
+					"patching_rect" : [ 215.5, 286.0, 44.0, 22.0 ],
+					"text" : "*~ 500"
 				}
 
 			}
@@ -345,7 +346,7 @@
 					"activelinecolor" : [ 0.196078431372549, 0.984313725490196, 1.0, 1.0 ],
 					"grid" : 2,
 					"id" : "obj-13",
-					"interval" : 10.0,
+					"interval" : 80.0,
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -373,7 +374,7 @@
 				"box" : 				{
 					"grid" : 2,
 					"id" : "obj-5",
-					"interval" : 10.0,
+					"interval" : 80.0,
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -427,7 +428,7 @@
 					"activelinecolor" : [ 0.980392156862745, 0.635294117647059, 0.164705882352941, 1.0 ],
 					"grid" : 2,
 					"id" : "obj-6",
-					"interval" : 10.0,
+					"interval" : 80.0,
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -444,7 +445,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"midpoints" : [ 226.5, 135.0, 226.5, 135.0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -452,7 +453,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -488,7 +489,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"disabled" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
 

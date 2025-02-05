@@ -84,7 +84,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -371,7 +370,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 202.0, 108.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "28"
 				}
 
 			}
@@ -761,7 +760,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 399.0, 238.0, 100.0, 35.0 ],
+					"patching_rect" : [ 399.0, 238.0, 100.0, 36.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -782,10 +781,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 137.0, 463.0, 73.0, 23.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 2"
 				}
 
@@ -807,13 +802,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 45.0, 303.5, 117.0, 62.0 ],
-					"text" : "groove~ #1 2 @timestretch 1 @quality best @loop 0"
+					"patching_rect" : [ 45.0, 303.5, 332.0, 22.0 ],
+					"text" : "groove~ #1 2 @timestretch 1 @quality good @loop 0"
 				}
 
 			}
@@ -850,7 +844,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 444.0, 291.0, 50.0 ],
+					"patching_rect" : [ 191.0, 444.0, 291.0, 51.0 ],
 					"text" : "When the line~ object finishes, it sends a bang out its right outlet. We use that bang to turn poly~ voices \"off\" when we're not using them."
 				}
 
@@ -934,6 +928,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 464.0, 73.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 

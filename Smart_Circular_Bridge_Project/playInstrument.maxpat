@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 274.0, 87.0, 900.0, 701.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 377.0, 206.0, 50.0, 22.0 ],
-					"text" : "67 100"
+					"text" : "70 0"
 				}
 
 			}
@@ -233,13 +233,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 247.0, 285.0, 100.0, 49.0 ],
-					"text" : "poly~ polySampler 16 args #1"
+					"patching_rect" : [ 247.0, 285.0, 201.0, 22.0 ],
+					"text" : "poly~ polySampler 8 args #1"
 				}
 
 			}
