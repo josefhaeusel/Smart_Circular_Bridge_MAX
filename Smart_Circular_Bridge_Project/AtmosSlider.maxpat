@@ -756,7 +756,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 429.0, 48.0, 235.0, 22.0 ],
-					"text" : "route \"Spannung gering\" \"Spannung hoch\""
+					"text" : "route \"Spannung hoch\" \"Spannung gering\""
 				}
 
 			}

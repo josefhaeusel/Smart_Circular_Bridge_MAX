@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 29.0, -993.0, 1372.0, 742.0 ],
+		"rect" : [ 134.0, 134.0, 1372.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -652,7 +652,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 875.0, 358.0, 150.0, 47.0 ],
+					"patching_rect" : [ 875.0, 358.0, 150.0, 48.0 ],
 					"text" : "wenn kein MelodieModus springe zum vorherigen Mode zurück"
 				}
 
@@ -762,7 +762,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 669.5, 101.0, 29.5, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -774,7 +774,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 631.5, 101.0, 29.5, 22.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -799,7 +799,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 631.5, 42.0, 66.0, 17.0 ],
+					"patching_rect" : [ 631.5, 25.0, 66.0, 18.0 ],
 					"text" : "r MOOD_NAME"
 				}
 
@@ -1605,7 +1605,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 266.0, 287.0, 395.0, 22.0 ],
-													"text" : "array u041013878"
+													"text" : "array u327000874"
 												}
 
 											}
@@ -2178,7 +2178,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 266.0, 287.0, 395.0, 22.0 ],
-													"text" : "array u041013878"
+													"text" : "array u327000874"
 												}
 
 											}
@@ -2852,7 +2852,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 244.0, 94.0, 50.0, 22.0 ],
-					"text" : "112."
+					"text" : "56."
 				}
 
 			}
@@ -2890,7 +2890,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 13.0, 619.0, 99.0, 22.0 ],
-					"text" : "81 112"
+					"text" : "60 0"
 				}
 
 			}
@@ -2914,8 +2914,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 137.0, 57.0, 35.0 ],
-					"text" : "16.487717"
+					"patching_rect" : [ 121.0, 137.0, 57.0, 36.0 ],
+					"text" : "0.903639"
 				}
 
 			}
