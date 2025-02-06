@@ -1979,7 +1979,7 @@
 					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 346.0, 77.0, 161.0, 27.0 ],
-					"text" : "Dorian",
+					"text" : "Mixolyian",
 					"textjustification" : 1
 				}
 
@@ -2614,18 +2614,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 738.833332002162933, 632.0, 100.0, 20.0 ],
-					"text" : "Melodiebasiert",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"attack" : 5000,
 					"id" : "obj-30",
 					"markers" : [ -60, -48, -36, -24, -12, -6, 0, 6 ],
@@ -3140,7 +3128,7 @@
 					"patching_rect" : [ 705.833332002162933, 726.0, 141.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 518.5, 402.0, 141.0, 29.0 ],
-					"text" : "Special - 15h",
+					"text" : "Special",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -3289,7 +3277,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-99",
@@ -3298,7 +3285,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 453.0, 409.0, 290.0, 22.0 ],
-									"text" : "if ($f1 == 15) && ($f2 >= 0 && $f2 < 15) then 1 else 0"
+									"text" : "if ($f1 == 18) && ($f2 >= 0 && $f2 < 59) then 1 else 0"
 								}
 
 							}
@@ -3344,7 +3331,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 554.0, 433.0, 140.0, 20.0 ],
-									"text" : "Special Modi - 15-15:15"
+									"text" : "Special Modi - 18-19"
 								}
 
 							}
@@ -3356,7 +3343,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 348.0, 360.0, 290.0, 22.0 ],
-									"text" : "if ($f1 == 12) && ($f2 >= 0 && $f2 < 15) then 1 else 0"
+									"text" : "if ($f1 == 15) && ($f2 >= 0 && $f2 < 59) then 1 else 0"
 								}
 
 							}
@@ -3472,7 +3459,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 373.0, 338.0, 140.0, 20.0 ],
-									"text" : "Special Modi - 12-12:15"
+									"text" : "Special Modi - 15-16"
 								}
 
 							}
@@ -3518,8 +3505,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 32.0, 50.0, 70.0, 22.0 ],
-									"text" : "loadmess 0"
+									"patching_rect" : [ 32.0, 22.0, 70.0, 22.0 ],
+									"text" : "loadmess 1"
 								}
 
 							}
@@ -3811,6 +3798,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
+									"disabled" : 1,
 									"source" : [ "obj-6", 0 ]
 								}
 
