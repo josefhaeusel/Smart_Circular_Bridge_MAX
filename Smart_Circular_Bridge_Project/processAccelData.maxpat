@@ -244,8 +244,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 216.0, 225.0, 122.0, 22.0 ],
-					"text" : "rampsmooth~ 5 5000"
+					"patching_rect" : [ 216.0, 225.0, 129.0, 22.0 ],
+					"text" : "rampsmooth~ 5 15000"
 				}
 
 			}
@@ -525,7 +525,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
-					"midpoints" : [ 396.5, 219.0, 369.0, 219.0, 369.0, 210.0, 277.0, 210.0 ],
+					"midpoints" : [ 396.5, 219.0, 369.0, 219.0, 369.0, 210.0, 280.5, 210.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -533,7 +533,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 2 ],
-					"midpoints" : [ 449.5, 228.0, 369.0, 228.0, 369.0, 219.0, 328.5, 219.0 ],
+					"midpoints" : [ 449.5, 228.0, 369.0, 228.0, 369.0, 219.0, 335.5, 219.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

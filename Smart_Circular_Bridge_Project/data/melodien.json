@@ -8,9 +8,9 @@
 ,
 	"song2" : 	{
 		"title" : "aufwaerts",
-		"melodies" : [ [ 0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 19, 21, 23, 24 ] ],
+		"melodies" : [ [ 0, 2, 5, 7, 9, 12, 14, 16, 19, 21, 24 ] ],
 		"root" : [ 48, 60 ],
-		"currentCount" : 18
+		"currentCount" : 1
 	}
 
 }
