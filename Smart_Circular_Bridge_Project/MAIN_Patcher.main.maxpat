@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 921.0 ],
+		"rect" : [ 134.0, 134.0, 1852.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -6637,6 +6637,13 @@
 , 			{
 				"name" : "sadam.udpReceiver.mxe64",
 				"type" : "mx64"
+			}
+, 			{
+				"name" : "timestampReader.maxpat",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",

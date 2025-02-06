@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 377.0, 206.0, 50.0, 22.0 ],
-					"text" : "70 0"
+					"text" : "69 22"
 				}
 
 			}
@@ -237,8 +237,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 247.0, 285.0, 201.0, 22.0 ],
-					"text" : "poly~ polySampler 8 args #1"
+					"patching_rect" : [ 247.0, 285.0, 208.0, 22.0 ],
+					"text" : "poly~ polySampler 12 args #1"
 				}
 
 			}
