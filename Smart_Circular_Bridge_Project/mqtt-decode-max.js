@@ -57,9 +57,7 @@ const decodeMessage = (Payload, bufferMessage) => {
     });
   });
 
-  // When a message is received
   client.on('message', async (topic, payload) => {
-    console.log('Received message on topic:', topic, payload);
 
     try {
       // Load the protobuf schema
