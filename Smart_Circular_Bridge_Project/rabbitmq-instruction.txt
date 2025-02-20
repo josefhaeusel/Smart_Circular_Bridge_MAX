@@ -1,0 +1,48 @@
+SETUP COMMANDS
+
+rabbitmq-service start
+
+rabbitmq-plugins.bat enable rabbitmq_management (damit können wir die tolle weboberfläche nutzen...guest guest)
+
+rabbitmq-plugins.bat enable rabbitmq_mqtt
+
+ping 10.102.8.253 (verbindung zur IP-Adresse)
+
+netstat -an | find "15672" (wird über den port gehört?)
+
+
+------
+
+MANAGEMENT LOGINS
+
+username: klangerfinder
+pw:
+http://localhost:15672/#/
+
+GUEST
+user: guest
+pw: guest
+
+24SEA
+24sea
+74836
+
+
+------
+
+MQTT EXPLORER (to see sensor data)
+
+mqtt://
+10.102.8.250
+1883
+
+24sea
+74836
+
+
+------
+
+TEST SENSOR DATA WITH COMMANDS
+
+mqtt sub -h 10.102.8.250 -p 1883 -u 24sea -P 74836 -t "spBv1___0/dewesoftx/DDATA/plugin/dewesoftX"
+mqtt sub -h 10.102.8.250 -p 1883 -u 24sea -P 74836 -t "spBv1___0/scaime/"
