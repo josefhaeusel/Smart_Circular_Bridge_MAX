@@ -21,13 +21,13 @@ read_last_line = 0
 app_update_service = 0
 app_update = 0
 app_artist_title_order = 1
-gain = 1.000000
+gain = 1.462177
 signal_threshold = 0.000000
 silence_threshold = 0.000000
 signal_detection = 0
 silence_detection = 0
 check_for_update = 1
-start_agent = 0
+start_agent = 1
 minimize_to_tray = 0
 connect_at_startup = 0
 force_reconnecting = 0
@@ -36,12 +36,12 @@ ic_charset =
 log_file = 
 
 [audio]
-device = 0
+device = 17
 device2 = -1
 dev_remember = 1
-samplerate = 44100
-bitrate = 128
-channel = 2
+samplerate = 48000
+bitrate = 80
+channel = 1
 left_ch = 1
 right_ch = 2
 left_ch2 = 1
@@ -52,7 +52,7 @@ silence_level = 50.000000
 signal_level = 50.000000
 disable_dithering = 0
 buffer_ms = 50
-dev_name = Default PCM device (default)
+dev_name = Voicemeeter Out B1 (VB-Audio Voicemeeter VAIO) [Windows WASAPI]
 dev2_name = None
 
 [record]
