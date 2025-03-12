@@ -80,7 +80,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -31958.0, -31915.0, 640.0, 480.0 ],
+						"rect" : [ 134.0, 134.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -471,7 +471,7 @@
 					"patching_rect" : [ 126.0, 1155.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ -8 ],
+							"parameter_initial" : [ -4.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~[13]",
 							"parameter_mmax" : 6.0,
@@ -1981,7 +1981,7 @@
 					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 346.0, 77.0, 161.0, 27.0 ],
-					"text" : "Mixolyian",
+					"text" : "Dorian",
 					"textjustification" : 1
 				}
 
@@ -2029,7 +2029,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -31958.0, -31915.0, 640.0, 480.0 ],
+						"rect" : [ 134.0, 134.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2150,7 +2150,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ -31958.0, -31915.0, 640.0, 480.0 ],
+										"rect" : [ 134.0, 134.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5062,7 +5062,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -31958.0, -31915.0, 640.0, 480.0 ],
+						"rect" : [ 134.0, 134.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6885,6 +6885,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "AtmosSlider.maxpat",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "KE-Logo.png",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project/Pics",
+				"patcherrelativepath" : "./Pics",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ReversedDelay.maxpat",
 				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
@@ -6920,13 +6934,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "atmosSlider.maxpat",
-				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "convert.js",
 				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
@@ -6937,6 +6944,13 @@
 				"name" : "fit_jweb_to_bounds.js",
 				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jumping-svgrepo-com.svg",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project/Pics",
+				"patcherrelativepath" : "./Pics",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
