@@ -40,17 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.0, 256.0, 100.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -482,7 +471,7 @@
 					"patching_rect" : [ 126.0, 1155.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 3.0 ],
+							"parameter_initial" : [ 4.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~[13]",
 							"parameter_mmax" : 6.0,
@@ -1992,7 +1981,7 @@
 					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 346.0, 77.0, 161.0, 27.0 ],
-					"text" : "Special",
+					"text" : "Dorian",
 					"textjustification" : 1
 				}
 
