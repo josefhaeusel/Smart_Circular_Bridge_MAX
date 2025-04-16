@@ -61,7 +61,6 @@ MQTT broker details should be configured within the `[mqtt_client]` subpatch or 
 - MQTT externals (e.g., [`mqtt-client`](https://github.com/grahamwakefield/max-mqtt))
 - [Voicemeeter Banana / Potato](https://vb-audio.com/Voicemeeter/)
 - [BUTT – Broadcast Using This Tool](https://danielnoethen.de/butt/)
-- Virtual audio cables for routing (e.g., VB-Cable)
 
 ---
 
@@ -69,9 +68,11 @@ MQTT broker details should be configured within the `[mqtt_client]` subpatch or 
 
 ```plaintext
 Smart_Circular_Bridge_MAX/
-├── bridge-sonification.maxpat     # Main patch
-├── [subpatches]/                  # Modular sound modules and data parsers
-├── config/                        # Optional config for MQTT settings
+├── Smart_Circular_Bridge_Project  # Max Project
+   └── MAIN_Patcher.main.maxpat    # Main Patch
+├── butt                           # butt config
+├── rabbitmq-instruction.txt       # rabbitmq MQTT instructions
+├── dsp settings.png               # Screenshot of audio dsp settings
 └── README.md                      # You're here
 ```
 
@@ -81,6 +82,7 @@ Smart_Circular_Bridge_MAX/
 
 Developed by  
 **Josef Häusel** – *Lead Creative Technologist at [KLANGERFINDER GmbH & Co. KG](https://klangerfinder.de)*
+
 **Alec Dull** – *Creative Technologist at [KLANGERFINDER GmbH & Co. KG](https://klangerfinder.de)*
 
 Project: [flachsbruecke-ulm.de](https://flachsbruecke-ulm.de)  
