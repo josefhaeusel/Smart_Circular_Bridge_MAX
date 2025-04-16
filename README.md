@@ -84,7 +84,6 @@ Smart_Circular_Bridge_MAX/
 
 Developed by  
 **Josef Häusel** – *Lead Creative Technologist at [KLANGERFINDER GmbH & Co. KG](https://klangerfinder.de)*
-
 **Alec Dull** – *Creative Technologist at [KLANGERFINDER GmbH & Co. KG](https://klangerfinder.de)*
 
 Project: [flachsbruecke-ulm.de](https://flachsbruecke-ulm.de)  
