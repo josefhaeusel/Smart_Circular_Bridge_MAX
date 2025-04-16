@@ -83,8 +83,8 @@ Smart_Circular_Bridge_MAX/
 ## 🧑‍🎤 Authorship
 
 Developed by  
-**Josef Häusel** – *Lead Creative Technologist at [KLANGERFINDER GmbH & Co. KG](https://klangerfinder.de)*
-**Alec Dull** – *Creative Technologist at [KLANGERFINDER GmbH & Co. KG](https://klangerfinder.de)*
+- **Josef Häusel** – *Lead Creative Technologist at [KLANGERFINDER GmbH & Co. KG](https://klangerfinder.de)*
+- **Alec Dull** – *Creative Technologist at [KLANGERFINDER GmbH & Co. KG](https://klangerfinder.de)*
 
 Project: [flachsbruecke-ulm.de](https://flachsbruecke-ulm.de)  
 More about the Smart Circular Bridge:  
