@@ -2,13 +2,15 @@
 
 This repository contains the **MaxMSP patch** that powers the sound layer of the **Smart Circular Bridge** ("Flachsbrücke") installation in Ulm. It receives **MQTT sensor data** from the bridge in real time and transforms it into immersive **4-channel generative audio**.
 
-The resulting audio is routed and streamed live to [flachsbruecke-ulm.de](https://flachsbruecke-ulm.de).
+The resulting audio is output at the bridge and streamed live to [flachsbruecke-ulm.de](https://flachsbruecke-ulm.de).
 
 ---
 
 ## 🧠 Overview
 
 Pedestrian and environmental activity on the bridge is captured through an array of sensors. This MaxMSP program processes that data, interpreting movement and pressure changes as **musical gestures**. It contributes to the bridge’s concept as a **living instrument** that sonifies human interaction with architecture.
+
+![cover pic](/cover_pic.png)
 
 ---
 
