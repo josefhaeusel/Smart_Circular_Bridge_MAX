@@ -87,8 +87,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 223.0, 510.0, 39.0, 22.0 ],
-					"text" : "- 0.45"
+					"patching_rect" : [ 223.0, 510.0, 33.0, 22.0 ],
+					"text" : "- 0.5"
 				}
 
 			}
@@ -112,7 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 214.0, 309.0, 44.0, 22.0 ],
-					"text" : "*~ 140"
+					"text" : "*~ 120"
 				}
 
 			}
@@ -171,8 +171,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 222.0, 346.0, 56.0, 22.0 ],
-					"text" : ">=~ 0.45"
+					"patching_rect" : [ 222.0, 346.0, 50.0, 22.0 ],
+					"text" : ">=~ 0.5"
 				}
 
 			}
