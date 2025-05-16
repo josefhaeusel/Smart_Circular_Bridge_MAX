@@ -471,7 +471,7 @@
 					"patching_rect" : [ 126.0, 1155.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 4 ],
+							"parameter_initial" : [ 2 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "mc.live.gain~[13]",
 							"parameter_mmax" : 6.0,
@@ -2190,6 +2190,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
