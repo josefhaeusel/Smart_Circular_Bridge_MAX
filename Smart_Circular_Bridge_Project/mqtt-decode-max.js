@@ -6,14 +6,14 @@ const path = require('path');
 
 // MQTT Broker details
 const options = {
-  host: '10.102.8.250',
+  host: '192.168.4.20',
   port: 1883,
   username: '24sea',
   password: '74836',
   maxPacketSize: 100000000000,
 };
 
-const url = 'mqtt://10.102.8.250';
+const url = 'mqtt://192.168.4.20';
 const topic = 'spBv1___0/dewesoftx/DDATA/plugin/dewesoftX';
 
 // Path to the Sparkplug B proto file

@@ -4,14 +4,14 @@ const mqtt = require('mqtt');
 var client;
 
 const options = {
-  host: '10.102.8.250',
+  host: '192.168.4.20',
   port: 1883,
   username: '24sea',
   password: '74836',
   maxPacketSize: 1000000,
 };
 
-url = 'mqtt://10.102.8.250';
+url = 'mqtt://192.168.4.20';
 
 Max.addHandler('connect', (topic) => {
   client = mqtt.connect(url, options);
