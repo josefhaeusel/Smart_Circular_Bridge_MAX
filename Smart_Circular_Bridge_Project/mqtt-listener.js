@@ -6,8 +6,8 @@ var client;
 const options = {
   host: '192.168.4.20',
   port: 1883,
-  username: '24sea',
-  password: '74836',
+  //username: '24sea',
+  //password: '74836',
   maxPacketSize: 1000000,
 };
 

@@ -8,8 +8,8 @@ const path = require('path');
 const options = {
   host: '192.168.4.20',
   port: 1883,
-  username: '24sea',
-  password: '74836',
+  //username: '24sea',
+  //password: '74836',
   maxPacketSize: 100000000000,
 };
 

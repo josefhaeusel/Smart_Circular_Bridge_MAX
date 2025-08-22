@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -74,7 +74,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -848,7 +848,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1618,7 +1618,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1529.0, 80.0, 235.0, 74.0 ],
+					"patching_rect" : [ 1529.0, 80.0, 235.0, 75.0 ],
 					"text" : "neunen Unterordner in Samples mit Bennenung: \"maxMustermann_sound\"\nSamples nach Velocity benannt: \"sample_vel._001\" weiters 020, 040, 060, 080, 100, 120, 127"
 				}
 
@@ -1631,7 +1631,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1513.0, 59.0, 233.0, 127.0 ],
+					"patching_rect" : [ 1513.0, 59.0, 233.0, 131.0 ],
 					"text" : "1. Ordnerstruktur:\n\n\n\n\n\n\n\n2. MaxMsp: "
 				}
 
@@ -1768,7 +1768,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1206.0, 937.0, 60.0, 33.0 ],
+					"patching_rect" : [ 1206.0, 937.0, 60.0, 34.0 ],
 					"text" : "OhneTonhöhe"
 				}
 
@@ -1928,7 +1928,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 726.0, 1043.0, 67.0, 33.0 ],
+					"patching_rect" : [ 726.0, 1043.0, 67.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 362.375016510486603, 479.0, 77.999979019165039, 20.0 ],
 					"text" : "Hüpfspiel*"
@@ -1978,10 +1978,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 26.0 ],
+					"patching_rect" : [ 593.333341896533966, 109.859156370162964, 89.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 77.0, 161.0, 26.0 ],
-					"text" : "Dorian",
+					"presentation_rect" : [ 346.0, 77.0, 161.0, 27.0 ],
+					"text" : "Special",
 					"textjustification" : 1
 				}
 
@@ -2023,7 +2023,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2156,7 +2156,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2619,7 +2619,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 14.0, 305.0, 51.0 ],
+					"patching_rect" : [ 17.0, 14.0, 305.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 20.0, 355.0, 29.0 ],
 					"text" : "Smart Circular Bridge - AudioDemo"
@@ -2655,7 +2655,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3027,10 +3027,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1553.0, 342.253525614738464, 185.0, 33.0 ],
+					"patching_rect" : [ 1553.0, 342.253525614738464, 185.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1171.5, 115.0, 185.0, 33.0 ],
+					"presentation_rect" : [ 1171.5, 115.0, 185.0, 34.0 ],
 					"text" : "Sidechain Ducking (Soundscapes) bei viel Betrieb",
 					"textjustification" : 2
 				}
@@ -3184,10 +3184,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 696.0, 119.0, 51.0 ],
+					"patching_rect" : [ 364.0, 696.0, 119.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 40.0, 402.0, 119.0, 51.0 ],
+					"presentation_rect" : [ 40.0, 402.0, 119.0, 52.0 ],
 					"text" : "Tag-Modus (6-22h)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
@@ -3222,7 +3222,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3268,7 +3268,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4127,7 +4127,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4587,7 +4587,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5244,7 +5244,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7073,49 +7073,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ReversedDelay.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "StrainSlider.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Testdaten.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "accelDataToInstrument2.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atmosFade.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "atmosSlider.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "convert.js",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -7128,35 +7128,35 @@
 			}
 , 			{
 				"name" : "loadData.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loadSamples.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "makeNoteEvents.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mqtt-decode-max.js",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mqtt-listener.js",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -7169,35 +7169,35 @@
 			}
 , 			{
 				"name" : "playInstrument.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playOhneTonhöhe.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polySampler.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "processAccelData.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "processStrainData.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -7209,20 +7209,20 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sadam.udpReceiver.mxo",
-				"type" : "iLaX"
+				"name" : "sadam.udpReceiver.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "timestampReader.maxpat",
-				"bootpath" : "~/Documents/Lokale_Projekte/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
+				"bootpath" : "~/Smart_Circular_Bridge/Smart_Circular_Bridge_Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../AppData/Roaming/Cycling '74/Max 8/examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
